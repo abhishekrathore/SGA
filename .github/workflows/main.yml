@@ -10,7 +10,6 @@ jobs:
       uses: rtCamp/action-slack-notify@master
       env:
         SLACK_WEBHOOK: https://hooks.slack.com/services/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
-         steps:
     - name: Dump GitHub context
       env:
         GITHUB_CONTEXT: ${{ toJson(github) }}
